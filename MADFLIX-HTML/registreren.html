@@ -1,0 +1,88 @@
+<!--Jeroen & Jeremy-->
+<!--Versie 2.0-->
+<!--aanpassingen: registratiecontainer beter uitgewerkt, registratieformulier van een div naar een geheel formulier omgezet om het phpready te maken.-->
+
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mad-Flix Registreren</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+<main>
+    <nav>
+        <a href="index.html"><img src="covers/hetlogo.png" alt="Foto niet gevonden"></a>
+        <ul>
+            <li class="rechts"><a href="#">Menu</a>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="aanmelden.html">Inloggen</a> </li>
+                    <li><a href="registreren.html">Registreren</a> </li>
+                    <li><a href="overons.html">Over Ons</a> </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="registratie-container">
+        <div class="registratie-container-links">
+            <div><h1>Normaal</h1>
+                <ul>
+                    <li>Onbeperkt films</li>
+                    <li>720P</li>
+                    <li>2 Schermen</li>
+                    <li>€10 Per maand</li>
+                </ul>
+            </div>
+            <div><h1>Premium</h1>
+                <ul>
+                    <li>Onbeperkt films</li>
+                    <li>1080P</li>
+                    <li>4 Schermen</li>
+                    <li>€15 Per maand</li>
+                </ul>
+            </div>
+            <div><h1>Premium +</h1>
+                <ul>
+                    <li>Onbeperkt films</li>
+                    <li>4K</li>
+                    <li>6 Schermen</li>
+                    <li>€20 Per maand</li>
+                </ul>
+            </div>
+        </div>
+        <form class="registratie-container-rechts" id="registreren" method="POST">
+            <input type="text" id="username" name="username" placeholder="gebruikersnaam">
+            <input type="text" id="firstname" name="firstname" placeholder="Voornaam">
+            <input type="text" id="lastname" name="lastname" placeholder="Achternaam">
+            <input type="password" id="password" name="password" placeholder="Wachtwoord">
+            <input type="password"  id="password2" name="password2" placeholder="Herhaal wachtwoord">
+            <select name="country">
+                <option>Kies een land</option>
+                <option value="NL">Nederland</option>
+                <option value="BE" >Belgie</option>
+                <option value="DE" >Duitsland</option>
+                <option value="AT" >Oosterijk</option>
+                <option value="EN" >Engeland</option>
+                <option value="LU" >Luxemburg</option>
+                <option value="VI" >Verwegiestan</option>
+            </select>
+            <select name="abonnement">
+                <option>Kies abonnement</option>
+                <option value="Normaal">Normaal</option>
+                <option value="Premium">Premium</option>
+                <option value="Premium+">Premium +</option>
+            </select>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <input type="date" id="bday" name="bday">
+            <input type="text" id="cardnr" name="cardnr" placeholder="Rekening Nummer">
+            <button type="submit">Registreren</button>
+        </form>
+    </div>
+</main>
+<footer class="footer">
+    <h1><a href="overons.html">Over ons</a></h1>© 2018 - MadFlix inc. All rights reserved
+</footer>
+</body>
+</html>
