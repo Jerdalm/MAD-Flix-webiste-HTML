@@ -1,3 +1,9 @@
+/* Jeroen & Jeremy
+versie: 2.0
+aangepast: een hoop classes weggehaald. veel dubble code verwijderd en hier en daar wat kleine
+aanpassingen aan de stijlen.
+ */
+
 *{
     margin: 0;
     padding: 0;
@@ -398,6 +404,12 @@ article form button {
     opacity: 0.85;
 }
 
+.detailinfo-box1 button {
+    width: 70%;
+    height: 25px;
+    margin: 5px auto;
+}
+
 .detailinfo-box1 img {
     width: 60%;
     max-width: 182px;
@@ -457,6 +469,48 @@ article form button {
 
 /* classes */
 
+.gastenboek {
+    display:flex;
+    width: 80%;
+    max-width: 1000px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px auto;
+    background: black;
+    opacity: 0.85;
+    border-radius: 5px;
+}
+
+.commentaar {
+    border: 2px solid white;
+    margin: 20px auto;
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.gastenboek .commentaar h1 {
+    margin: 5px 0 0 5px;
+}
+
+.gastenboek form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0  auto 20px auto;
+}
+
+.gastenboek form input {
+    margin: 10px 0;
+    max-width: 200px;
+}
+
+.gastenboek form {
+    width: 80%;
+    max-width: 500px;
+}
+
 .background {
     background: black;
 }
@@ -472,7 +526,7 @@ article form button {
     border: 1px solid darkred;
     text-decoration: none;
     color: white;
-    background: #696969
+    background: #696969;
     z-index: 2;
 }
 

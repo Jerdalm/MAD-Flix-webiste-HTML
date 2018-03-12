@@ -1,3 +1,8 @@
+<!--Jeroen & Jeremy-->
+<!--Versie 2.0-->
+<!--aanpassingen: divs veranderd in articles en sections, films hebben nu een <h1> titel. footer ook veranderd-->
+
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -6,33 +11,37 @@
     <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
-<main>
 <nav>
     <a href="index.html"><img src="covers/hetlogo.png" alt="Foto niet gevonden"></a>
     <ul>
         <li><a href="#">Bladeren</a>
             <ul>
-                <li><a href="overzicht.html#comedie">Comedie</a> </li>
-                <li><a href="overzicht.html#thriller">Thriller</a> </li>
-                <li><a href="overzicht.html#oorlog">Oorlog</a> </li>
+                <li><a href="overzicht.html#comedie">Comedie</a></li>
+                <li><a href="overzicht.html#thriller">Thriller</a></li>
+                <li><a href="overzicht.html#oorlog">Oorlog</a></li>
             </ul>
         </li>
         <li class="rechts"><a href="#">[Gebruiker]</a></li>
         <li class="rechts"><a href="#">Menu</a>
             <ul>
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="aanmelden.html">Inloggen</a> </li>
-                <li><a href="registreren.html">Registreren</a> </li>
-                <li><a href="overons.html">Over Ons</a> </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aanmelden.html">Inloggen</a></li>
+                <li><a href="registreren.html">Registreren</a></li>
+                <li><a href="overons.html">Over Ons</a></li>
+                <li><a href="gastenboek.html">Gastenboek</a></li>
             </ul>
         </li>
     </ul>
-    <input class="rechts" type="text" name="zoeken" placeholder="Zoeken...">
+    <form method="post" action="#">
+        <input class="rechts" type="text" name="zoeken" placeholder="Zoeken...">
+    </form>
 </nav>
+<main>
     <div><img src="covers/deadpool.gif" alt="foto is niet beschikbaar"></div>
     <h1>Verder kijken</h1>
     <section class="film-container">
-        <article><a href="jwdetailPagina.html"><h1>John Wick</h1><img src="covers/johnwick.jpg" alt="foto niet gevonden"></a></article>
+        <article><a href="jwdetailPagina.html"><h1>John Wick</h1><img src="covers/johnwick.jpg"
+                                                                      alt="foto niet gevonden"></a></article>
         <article><h1>Guardians Vol. 2</h1><img src="covers/guardians.jpg" alt="foto niet gevonden"></article>
         <article><h1>Frontier</h1><img src="covers/frontier.jpg" alt="foto niet gevonden"></article>
         <article><h1>Logan</h1><img src="covers/logan.jpg" alt="foto niet gevonden"></article>
@@ -47,7 +56,7 @@
         <article><h1>The Matrix: Reloaded</h1><img src="covers/thematrix2.jpg" alt="foto niet gevonden"></article>
         <article><h1>Guardians Vol. 2</h1><img src="covers/guardians2.jpg" alt="foto niet gevonden"></article>
         <article><h1>John Wick</h1><img src="covers/johnwick.jpg" alt="foto niet gevonden"></article>
-    </section></main>
+    </section>
     <h1><a id="comedie">Comedie</a></h1>
     <section class="film-container">
         <article><h1>Monty Phyton</h1><img src="covers/mp.jpg" alt="foto niet gevonden"></article>
