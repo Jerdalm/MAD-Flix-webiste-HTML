@@ -2,16 +2,17 @@
 versie: 2.0
 aangepast: een hoop classes weggehaald. veel dubble code verwijderd en hier en daar wat kleine
 aanpassingen aan de stijlen. font-family alleen in de body gezet. een aantal stylen minder specigiek gemaakt.
- */
+ aantal overbodige styles verwijderd.*/
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 /*dropdown NIET AANPASSEN*/
 
 body {
@@ -93,11 +94,12 @@ nav ul li ul li a:hover {
 form {
     margin-top: -5px;
 }
+
 /* einde van de dropdown*/
 
 /*flex box*/
 
-article form  {
+article form {
     display: flex;
     align-items: center;
     padding-left: 33%;
@@ -183,7 +185,7 @@ article form button {
     background: black;
     opacity: 0.85;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .film-container img {
@@ -245,7 +247,7 @@ article form button {
     font-size: 1.2em;
 }
 
-.registratie-container-rechts p{
+.registratie-container-rechts p {
     margin: 0 auto;
 }
 
@@ -259,7 +261,7 @@ article form button {
     opacity: 0.85;
 }
 
-.registratie-container-links div:hover{
+.registratie-container-links div:hover {
     border: solid 2px red;
 
 }
@@ -325,6 +327,7 @@ article form button {
     text-align: center;
     border-radius: 5px;
     border: solid 1px white;
+    clear: both;
 }
 
 .ons-container img {
@@ -357,8 +360,8 @@ article form button {
     font-size: 1.2em;
 }
 
-.overons{
-    display:flex;
+.overons {
+    display: flex;
     width: 76%;
     height: 80%;
     margin: auto;
@@ -374,13 +377,13 @@ article form button {
     border-radius: 5px;
 }
 
-.overons article img{
+.overons article img {
     float: left;
     width: 80%;
 }
 
-.detailinfo{
-    display:flex;
+.detailinfo {
+    display: flex;
     width: 80%;
     max-width: 1000px;
     height: 100%;
@@ -457,7 +460,7 @@ article form button {
 /* classes */
 
 .gastenboek {
-    display:flex;
+    display: flex;
     width: 80%;
     max-width: 1000px;
     height: 100%;
@@ -485,7 +488,7 @@ article form button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0  auto 20px auto;
+    margin: 0 auto 20px auto;
 }
 
 .gastenboek form input {
@@ -502,7 +505,7 @@ article form button {
     background: black;
 }
 
-.buttonterug{
+.buttonterug {
     font-weight: bold;
     font-size: 20px;
     padding: 1% 2% 1% 2%;
@@ -565,14 +568,25 @@ h2 {
     background: darkred;
 }
 
-h3 {
-    font-weight: bold;
-    padding: 20px 20px;
-    color: white;
-    font-size: 1.5em;
+.film-container h2 {
+    font-size: 0.9em;
+    height: 0;
+    padding-bottom: 16px;
+    background: none;
 }
 
-h4 {
+.film-container h1 {
+    font-size: 2em;
+    margin: -70px 0 0 0;
+    width: 270px;
+    position: absolute;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h4, h3 {
     color: white;
     margin-left: 20px;
     font-size: 1.5em;
@@ -584,10 +598,6 @@ h4 {
     font-size: 1.2em;
     margin: 0;
 }
-
-.film-container h1 {
-     font-size: 0.9em;
- }
 
 .achtergrond-container h1 {
     font-size: 5em;
@@ -616,7 +626,7 @@ h4 {
 
 div img {
     width: 80%;
-    margin: 0 10%;
+    margin: 0 10% 40px 10%;
 }
 
 img {
@@ -625,16 +635,6 @@ img {
 
 form table tr td {
     color: white;
-}
-
-body main div div div h2 {
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: darkred;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 .registratie-container ul {
@@ -654,5 +654,5 @@ nav input {
     margin-right: 10px;
     outline: red;
     border: solid 2px black;
-    color: white;
+    color: black;
 }

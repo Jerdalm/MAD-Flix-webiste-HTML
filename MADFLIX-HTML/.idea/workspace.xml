@@ -13,7 +13,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="jwdetailPagina.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="jwdetailPagina.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jwdetailPagina.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="249">
@@ -23,11 +23,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="overzicht.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="overzicht.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/overzicht.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
                   <folding />
                 </state>
               </provider>
@@ -56,8 +56,8 @@
           <file leaf-file-name="overons.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/overons.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-221">
-                  <caret line="2" column="76" lean-forward="false" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+                <state relative-caret-position="884">
+                  <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -97,7 +97,7 @@
             <entry file="file://$PROJECT_DIR$/Styles/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="731">
-                  <caret line="422" column="12" lean-forward="false" selection-start-line="422" selection-start-column="12" selection-end-line="422" selection-end-column="12" />
+                  <caret line="425" column="12" lean-forward="false" selection-start-line="425" selection-start-column="12" selection-end-line="425" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -110,8 +110,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Styles/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="356">
-                  <caret line="414" column="22" lean-forward="false" selection-start-line="414" selection-start-column="22" selection-end-line="414" selection-end-column="22" />
+                <state relative-caret-position="11152">
+                  <caret line="656" column="16" lean-forward="false" selection-start-line="656" selection-start-column="16" selection-end-line="656" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -144,6 +144,13 @@
       <find>body</find>
       <find>font</find>
       <find>detailinfo</find>
+      <find>overons</find>
+      <find>h2</find>
+      <find>div img</find>
+      <find>nav</find>
+      <find>film-container</find>
+      <find>film-container h1</find>
+      <find>z-index</find>
     </findStrings>
     <replaceStrings>
       <replace>index</replace>
@@ -163,14 +170,14 @@
         <option value="$PROJECT_DIR$/oudestyles/style.css" />
         <option value="$PROJECT_DIR$/../Mad-Flix/includes/header.php" />
         <option value="$PROJECT_DIR$/trailerpagina.html" />
-        <option value="$PROJECT_DIR$/overons.html" />
         <option value="$PROJECT_DIR$/aanmelden.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/overzicht.html" />
         <option value="$PROJECT_DIR$/gastenboek.html" />
         <option value="$PROJECT_DIR$/registreren.html" />
         <option value="$PROJECT_DIR$/jwdetailPagina.html" />
+        <option value="$PROJECT_DIR$/overons.html" />
         <option value="$PROJECT_DIR$/Styles/style.css" />
+        <option value="$PROJECT_DIR$/overzicht.html" />
       </list>
     </option>
   </component>
@@ -229,11 +236,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\untitled" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\untitled\covers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\untitled" />
       <recent name="D:\untitled\covers" />
     </key>
   </component>
@@ -273,12 +280,12 @@
       <workItem from="1520341396850" duration="1224000" />
       <workItem from="1520355554060" duration="522000" />
       <workItem from="1520521465788" duration="1724000" />
-      <workItem from="1521021150259" duration="936000" />
+      <workItem from="1521021150259" duration="3729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101082000" />
+    <option name="totallyTimeSpent" value="103875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -477,14 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overzicht.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trailerpagina.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -517,10 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overons.html">
+    <entry file="file://$PROJECT_DIR$/jwdetailPagina.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="2" column="76" lean-forward="false" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+        <state relative-caret-position="249">
+          <caret line="37" column="78" lean-forward="true" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
           <folding />
         </state>
       </provider>
@@ -533,18 +532,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwdetailPagina.html">
+    <entry file="file://$PROJECT_DIR$/overons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="37" column="78" lean-forward="true" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
+        <state relative-caret-position="884">
+          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="414" column="22" lean-forward="false" selection-start-line="414" selection-start-column="22" selection-end-line="414" selection-end-column="22" />
+        <state relative-caret-position="731">
+          <caret line="425" column="12" lean-forward="false" selection-start-line="425" selection-start-column="12" selection-end-line="425" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overzicht.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
           <folding />
         </state>
       </provider>
