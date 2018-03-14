@@ -1,7 +1,7 @@
 /* Jeroen & Jeremy
 versie: 2.0
 aangepast: een hoop classes weggehaald. veel dubble code verwijderd en hier en daar wat kleine
-aanpassingen aan de stijlen.
+aanpassingen aan de stijlen. font-family alleen in de body gezet. een aantal stylen minder specigiek gemaakt.
  */
 
 *{
@@ -18,6 +18,7 @@ body {
     background-image: url("../covers/background2.jpg");
     background-size: cover;
     padding: 100px 0;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 nav {
@@ -31,7 +32,6 @@ nav {
 }
 
 nav p {
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
     color: #222;
     font-size: 32px;
@@ -58,7 +58,6 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
     color: white;
     font-size: 20px;
@@ -242,7 +241,6 @@ article form button {
 }
 
 .registratie-container-rechts a {
-    font-family: "Helvetica", "Arial", sans-serif;
     color: black;
     font-size: 1.2em;
 }
@@ -283,7 +281,6 @@ article form button {
 
 .login-container button {
     background-color: black;
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
     margin: 10px 0;
     border: solid 2px gray;
@@ -295,7 +292,6 @@ article form button {
 
 .registratie-container button {
     background-color: black;
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
     margin: 10px auto;
     border: solid 2px gray;
@@ -356,7 +352,6 @@ article form button {
 }
 
 .uitleg-container .beschrijving-container p {
-    font-family: "Helvetica", "Arial", sans-serif;
     padding: 20px 20px;
     width: 90%;
     font-size: 1.2em;
@@ -426,7 +421,6 @@ article form button {
     padding: 10px 0 0 0;
     height: 7%;
     font-size: 1.3em;
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
     margin: 20px auto;
     opacity: 1;
@@ -438,7 +432,6 @@ article form button {
     flex-direction: column;
     height: 80%;
     color: #EAE8E8;
-    font-family: "Helvetica", "Arial", sans-serif;
     padding: 20px 20px;
     font-size: 1.2em;
     text-decoration: none;
@@ -516,7 +509,6 @@ article form button {
 }
 
 .buttonterug{
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
     font-size: 20px;
     padding: 1% 2% 1% 2%;
@@ -558,21 +550,18 @@ article form button {
 /* ander opmaak */
 
 p {
-    font-family: "Helvetica", "Arial", sans-serif;
     padding: 20px 20px;
     color: white;
     font-size: 1.2em;
 }
 
 h1 {
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
     padding: 5px auto;
     color: white;
 }
 
 h2 {
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
     height: 80px;
     padding: 5px auto;
@@ -583,7 +572,6 @@ h2 {
 }
 
 h3 {
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
     padding: 20px 20px;
     color: white;
@@ -591,14 +579,12 @@ h3 {
 }
 
 h4 {
-    font-family: "Helvetica", "Arial", sans-serif;
     color: white;
     margin-left: 20px;
     font-size: 1.5em;
 }
 
 .uitleg-container ul {
-    font-family: "Helvetica", "Arial", sans-serif;
     padding: 20px 35px;
     color: white;
     font-size: 1.2em;
@@ -628,7 +614,6 @@ h4 {
 }
 
 .footer h1 a {
-    font-family: "Helvetica", "Arial", sans-serif;
     text-decoration: none;
     font-size: 0.5em;
     font-weight: normal;
@@ -646,12 +631,10 @@ img {
 
 form table tr td {
     color: white;
-    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 body main div div div h2 {
     text-align: center;
-    font-family: "Helvetica", "Arial", sans-serif;
     text-decoration: none;
     font-size: 1.4em;
     font-weight: bold;
@@ -660,8 +643,7 @@ body main div div div h2 {
     margin-top: 10px;
 }
 
-body main div div div ul li {
-    font-family: "Helvetica", "Arial", sans-serif;
+.registratie-container ul {
     font-size: 1.2em;
     font-weight: normal;
     color: #EAE8E8;
