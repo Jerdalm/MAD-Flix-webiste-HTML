@@ -601,17 +601,9 @@ h4, h3 {
 
 .achtergrond-container h1 {
     font-size: 5em;
-    text-align: center;
-    color: white;
 }
 
-.overons h1 {
-    font-size: 1.5em;
-    color: white;
-    text-align: center;
-}
-
-.detailinfo h1 {
+.overons h1, .detailinfo h1 {
     font-size: 1.5em;
     color: white;
     text-align: center;
@@ -631,10 +623,6 @@ div img {
 
 img {
     margin: 10px 0;
-}
-
-form table tr td {
-    color: white;
 }
 
 .registratie-container ul {
