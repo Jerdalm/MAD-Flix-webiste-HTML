@@ -399,12 +399,6 @@ article form button {
     opacity: 0.85;
 }
 
-.detailinfo-box1 button {
-    width: 70%;
-    height: 25px;
-    margin: 5px auto;
-}
-
 .detailinfo-box1 img {
     width: 60%;
     max-width: 182px;
@@ -418,7 +412,7 @@ article form button {
     color: black;
     text-align: center;
     text-decoration: none;
-    padding: 10px 0 0 0;
+    padding: 5px 0 5px 0;
     height: 7%;
     font-size: 1.3em;
     font-weight: bold;
