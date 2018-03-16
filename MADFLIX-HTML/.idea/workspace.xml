@@ -13,20 +13,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="jwdetailPagina.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="jwdetailPagina.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jwdetailPagina.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+                <state relative-caret-position="578">
+                  <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="overzicht.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="overzicht.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/overzicht.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
+                <state relative-caret-position="-408">
                   <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
                   <folding />
                 </state>
@@ -110,8 +110,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Styles/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1255">
-                  <caret line="605" column="9" lean-forward="false" selection-start-line="605" selection-start-column="9" selection-end-line="605" selection-end-column="9" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -178,8 +178,8 @@
         <option value="$PROJECT_DIR$/overons.html" />
         <option value="$PROJECT_DIR$/overzicht.html" />
         <option value="$PROJECT_DIR$/jwdetailPagina.html" />
-        <option value="$PROJECT_DIR$/Styles/style.css" />
         <option value="$PROJECT_DIR$/gastenboek.html" />
+        <option value="$PROJECT_DIR$/Styles/style.css" />
       </list>
     </option>
   </component>
@@ -212,6 +212,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,7 +229,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,11 +285,12 @@
       <workItem from="1521021150259" duration="4325000" />
       <workItem from="1521045294069" duration="1927000" />
       <workItem from="1521100706098" duration="1581000" />
+      <workItem from="1521190971856" duration="151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107979000" />
+    <option name="totallyTimeSpent" value="108130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -503,14 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overzicht.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gastenboek.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -529,8 +522,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jwdetailPagina.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="578">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overzicht.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
           <folding />
         </state>
       </provider>
