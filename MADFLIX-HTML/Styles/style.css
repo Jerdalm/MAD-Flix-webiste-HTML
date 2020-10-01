@@ -29,13 +29,13 @@ nav {
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: 99;
 }
 
 nav p {
     font-weight: bold;
     color: #222;
-    font-size: 32px;
+    font-size: 33px;
     line-height: 25px;
     float: left;
     padding: 30px 20px;
@@ -43,7 +43,6 @@ nav p {
 
 nav img {
     float: left;
-    margin-top: 0;
     height: 80px;
     margin-bottom: -2px;
 }
@@ -72,7 +71,7 @@ nav ul li ul {
     position: absolute;
     background-color: darkred;
     margin-right: 1000px;
-    z-index: 2;
+    z-index: 100;
 }
 
 nav ul li:hover ul {
@@ -89,6 +88,7 @@ nav ul li ul li {
 
 nav ul li ul li a:hover {
     background-color: black;
+    color: white;
 }
 
 form {
@@ -116,7 +116,7 @@ article form input {
 article form button {
     margin-left: 10px;
     width: 85px;
-    border-radius: 5px;
+    border-radius: 7px;
     font-size: 1.2em;
 }
 
